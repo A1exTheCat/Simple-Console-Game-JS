@@ -11,9 +11,9 @@ const userAnswerRequest = () => {
 };
 
 const getRandomIntInclusive = (minNum, maxNum) => {
-  minNum = Math.ceil(minNum);
-  maxNum = Math.floor(maxNum);
-  return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+  const min = Math.ceil(minNum);
+  const max = Math.floor(maxNum);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
 const evenGame = () => {
@@ -42,7 +42,7 @@ const evenGame = () => {
     return console.log(`Congratulations, ${nameOfPlayer}!`);
   }
   return console.log(
-    `${userEvenAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${nameOfPlayer}!`
+    `${userEvenAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${nameOfPlayer}!`,
   );
 };
 

@@ -15,7 +15,7 @@ const calculationGameQuestion = () => {
   const arrayWithSigns = ['+', '-', '*'];
   const firstNumber = getRandomIntInclusive(1, 999);
   const secondNumber = getRandomIntInclusive(1, 999);
-  const culcSign = arrayWithSigns[getRandomIntInclusive(1, 3)];
+  const culcSign = arrayWithSigns[getRandomIntInclusive(0, 2)];
   const questExpression = `${firstNumber} ${culcSign} ${secondNumber}`;
   return questExpression;
 };

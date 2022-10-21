@@ -6,4 +6,5 @@ Maintainability
 (https://codeclimate.com/github/A1exTheCat/frontend-project-lvl1/maintainability)
 
 Asciinema
-(https://asciinema.org/a/14NX2IxfkzsHxUKWiH7Lmrj8F)
+(https://asciinema.org/a/14NX2IxfkzsHxUKWiH7Lmrj8F) ### Brain-even
+(https://asciinema.org/a/N4jWIC2eoo5ggvtdrQCTMQy2f) ### Brain-calc

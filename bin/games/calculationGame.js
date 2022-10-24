@@ -54,7 +54,7 @@ const calculationGameChecking = (str) => {
 const calculationCheckGame = gameEngine(
   calculationGameRules,
   calculationGameQuestion,
-  calculationGameChecking
+  calculationGameChecking,
 );
 
 export default calculationCheckGame;

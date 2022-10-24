@@ -9,3 +9,4 @@ Asciinema
 (https://asciinema.org/a/14NX2IxfkzsHxUKWiH7Lmrj8F) ### Brain-even
 (https://asciinema.org/a/N4jWIC2eoo5ggvtdrQCTMQy2f) ### Brain-calc
 (https://asciinema.org/a/kzrm5NyHU0ioJ7z7tVMxpvm7d) ### Brain-gcd
+(https://asciinema.org/a/wl6Sk9RmGd4oXKeFPtOppS7Xo) ### Brain-progression

@@ -24,7 +24,7 @@ const GameEngine = (rules, question, check) => {
     return console.log(`Congratulations, ${nameOfPlayer}!`);
   }
   return console.log(
-    `${userCurrentAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${nameOfPlayer}!`
+    `${userCurrentAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${nameOfPlayer}!`,
   );
 };
 

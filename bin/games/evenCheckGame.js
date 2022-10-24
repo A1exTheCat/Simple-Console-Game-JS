@@ -24,7 +24,7 @@ const evenCheckGameChecking = (number) => {
 const evenCheckGame = gameEngine(
   evenCheckGameRules,
   evenCheckGameQuestion,
-  evenCheckGameChecking
+  evenCheckGameChecking,
 );
 
 export default evenCheckGame;

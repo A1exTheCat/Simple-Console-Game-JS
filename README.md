@@ -2,6 +2,8 @@
 
 [![Actions Status](https://github.com/A1exTheCat/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/A1exTheCat/frontend-project-lvl1/actions)
 
+This application is small quiz game with calculations. Use command 'make install' for installation.
+
 Maintainability
 (https://codeclimate.com/github/A1exTheCat/frontend-project-lvl1/maintainability)
 

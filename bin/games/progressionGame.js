@@ -29,7 +29,10 @@ const progressionGameChecking = (str) => {
     progressionKeyCheck = checkingProgression[3] - checkingProgression[2];
   }
   for (let i = 0; i < 10; i += 1) {
-    if (checkingProgression[i] === '..') {
+    if (checkingProgression[i] === '..' && i !== 9) {
+      result = Number(checkingProgression[i + 1]) - Number(progressionKeyCheck);
+      break;
+    } else if (checkingProgression[i] === '..' && i === 9) {
       result = Number(checkingProgression[i - 1]) + Number(progressionKeyCheck);
       break;
     }

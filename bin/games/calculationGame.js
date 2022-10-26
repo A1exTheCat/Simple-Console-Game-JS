@@ -1,10 +1,5 @@
 import gameEngine from '../src/index.js';
-
-const getRandomIntInclusive = (minNum, maxNum) => {
-  const min = Math.ceil(minNum);
-  const max = Math.floor(maxNum);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+import getRandomIntInclusive from '../src/randomiser.js';
 
 const calculationGameRules = () => {
   const rules = 'What is the result of the expression?';
@@ -51,7 +46,7 @@ const calculationGameChecking = (str) => {
   return result;
 };
 
-const calculationCheckGame = gameEngine(
+const calculationCheckGame = () => gameEngine(
   calculationGameRules,
   calculationGameQuestion,
   calculationGameChecking,

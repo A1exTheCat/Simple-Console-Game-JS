@@ -1,10 +1,5 @@
 import gameEngine from '../src/index.js';
-
-const getRandomIntInclusive = (minNum, maxNum) => {
-  const min = Math.ceil(minNum);
-  const max = Math.floor(maxNum);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+import getRandomIntInclusive from '../src/randomiser.js';
 
 const gcdGameRules = () => {
   const rules = 'Find the greatest common divisor of given numbers.';
@@ -53,7 +48,7 @@ const gcdGameChecking = (str) => {
   return result;
 };
 
-const gcdCheckGame = gameEngine(
+const gcdCheckGame = () => gameEngine(
   gcdGameRules,
   gcdGameQuestion,
   gcdGameChecking,

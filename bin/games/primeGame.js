@@ -1,10 +1,5 @@
 import gameEngine from '../src/index.js';
-
-const getRandomIntInclusive = (minNum, maxNum) => {
-  const min = Math.ceil(minNum);
-  const max = Math.floor(maxNum);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+import getRandomIntInclusive from '../src/randomiser.js';
 
 const primeGameRules = () => {
   const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -28,7 +23,7 @@ const isPrimeGameChecking = (num) => {
   return result;
 };
 
-const primeCheckGame = gameEngine(
+const primeCheckGame = () => gameEngine(
   primeGameRules,
   primeGameQuestion,
   isPrimeGameChecking,

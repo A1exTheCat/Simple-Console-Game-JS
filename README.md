@@ -1,15 +1,59 @@
-### Hexlet tests and linter status:
+# Simple-Console-Game-JS
+A set of five console games, built on the principle of popular mobile brain training apps
 
-[![Actions Status](https://github.com/A1exTheCat/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/A1exTheCat/frontend-project-lvl1/actions)
+## Tests and linter status:
 
-This application is small quiz game with calculations. Use command 'make install' for installation.
+[![hexlet-check](https://github.com/A1exTheCat/Simple-Console-Game-JS/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/A1exTheCat/Simple-Console-Game-JS/actions/workflows/hexlet-check.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b836345c2a4843b4c995/maintainability)](https://codeclimate.com/github/A1exTheCat/frontend-project-lvl1/maintainability)
 
-Maintainability
-(https://codeclimate.com/github/A1exTheCat/frontend-project-lvl1/maintainability)
+## Setup:
+```sh
+$ git clone https://github.com/A1exTheCat/Simple-Console-Game-JS.git
+$ cd frontend-project-lvl1
+$ make install
+$ make publish
+$ npm link
+```
 
-Asciinema
-(https://asciinema.org/a/14NX2IxfkzsHxUKWiH7Lmrj8F) ### Brain-even
-(https://asciinema.org/a/N4jWIC2eoo5ggvtdrQCTMQy2f) ### Brain-calc
-(https://asciinema.org/a/kzrm5NyHU0ioJ7z7tVMxpvm7d) ### Brain-gcd
-(https://asciinema.org/a/wl6Sk9RmGd4oXKeFPtOppS7Xo) ### Brain-progression
-(https://asciinema.org/a/phX1LgL3e1tvFcWj2Fiin5DGe) ### Brain-prime
+## Usage
+
+### Even
+Random number is shown. Player needs to answer "yes" if the number is even, or "no" otherwise.
+
+Run game:
+```sh
+$ brain-even
+```
+
+
+### Calc
+Random mathematical expression is shown. Player needs to calculate and answer the correct result.
+
+Run game:
+```sh
+$ brain-calc
+```
+
+### Gcd
+Two random numbers are shown. Player needs to calculate and answer the GCD of these numbers.
+
+Run game:
+```sh
+$ brain-gcd
+```
+
+### Progression
+List of random numbers that forms arithmetical progression is shown. One number is replaced with dots. Player needs to determine and answer this number.
+
+Run game:
+```sh
+$ brain-progression
+```
+
+### Prime
+Random number is shown. Player needs to answer "yes" if the number is prime, or "no" otherwise.
+
+Run game:
+```sh
+$ brain-prime
+```

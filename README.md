@@ -1,6 +1,3 @@
-# Simple-Console-Game-JS
-A set of five console games, built on the principle of popular mobile brain training apps
-
 ## Tests and linter status:
 
 [![hexlet-check](https://github.com/A1exTheCat/Simple-Console-Game-JS/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/A1exTheCat/Simple-Console-Game-JS/actions/workflows/hexlet-check.yml)
